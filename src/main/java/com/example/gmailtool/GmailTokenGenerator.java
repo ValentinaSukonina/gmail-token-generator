@@ -19,10 +19,6 @@ public class GmailTokenGenerator {
     static String CLIENT_ID = dotenv.get("GOOGLE_CLIENT_ID");
     static String CLIENT_SECRET = dotenv.get("GOOGLE_CLIENT_SECRET");
     static String REDIRECT_URI = dotenv.get("GOOGLE_REDIRECT_URI");
-//    private static final String CLIENT_ID = "YOUR_CLIENT_ID";
-//    private static final String CLIENT_SECRET = "YOUR_CLIENT_SECRET";
-//    //private static final String REDIRECT_URI = "http://localhost:8888/Callback";
-//    private static final String REDIRECT_URI = "http://localhost:8000/oauth2callback";
 
     private static final String SCOPE = "https://www.googleapis.com/auth/gmail.send";
 
