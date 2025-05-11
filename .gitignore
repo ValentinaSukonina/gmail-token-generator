@@ -1,0 +1,49 @@
+# Help Documentation
+HELP.md
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Environment Variables
+.env
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*~
+
+# Eclipse (optional)
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor Specific
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
